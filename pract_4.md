@@ -15,9 +15,12 @@ TLS используется для обеспечения шифрования 
 # Задание 4  
 21/tcp   open  ftp         vsftpd 2.3.4  
 Порт 21 открыт, работает FTP-сервер vsftpd версии 2.3.4. Уязвимость: vsftpd 2.3.4 содержит backdoor (CVE-2011-2523).  
+
 22/tcp   open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)  
 Порт 22 открыт, работает SSH-сервер OpenSSH версии 4.7p1. Устаревшая версия, возможны уязвимости (CVE-2008-5161, CVE-2010-4478).  
+
 23/tcp   open  telnet      Linux telnetd  
 Порт 23 открыт, работает Telnet-сервер.  
+
 25/tcp   open  smtp        Postfix smtpd  
 Порт 25 открыт, работает SMTP-сервер Postfix. Возможны атаки на конфигурацию почтового сервера (спам, перебор).  
