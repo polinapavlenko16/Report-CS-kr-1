@@ -11,3 +11,12 @@ TLS используется для обеспечения шифрования 
 3. Синхронизация номеров последовательностей (SYN, SYN-ACK, ACK).
 4. Проверка доступности и работоспособности сторон.
 <img width="1920" height="940" alt="2025-12-28_16-43-11" src="https://github.com/user-attachments/assets/881d87f2-83c3-4f3d-8f79-ca938468afb5" />
+# Задание 4  
+21/tcp   open  ftp         vsftpd 2.3.4  
+Порт 21 открыт, работает FTP-сервер vsftpd версии 2.3.4. Уязвимость: vsftpd 2.3.4 содержит backdoor (CVE-2011-2523).  
+22/tcp   open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)  
+Порт 22 открыт, работает SSH-сервер OpenSSH версии 4.7p1. Устаревшая версия, возможны уязвимости (CVE-2008-5161, CVE-2010-4478).  
+23/tcp   open  telnet      Linux telnetd  
+Порт 23 открыт, работает Telnet-сервер.  
+25/tcp   open  smtp        Postfix smtpd  
+Порт 25 открыт, работает SMTP-сервер Postfix. Возможны атаки на конфигурацию почтового сервера (спам, перебор).  
