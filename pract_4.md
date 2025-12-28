@@ -24,3 +24,8 @@ TLS используется для обеспечения шифрования 
 
 25/tcp   open  smtp        Postfix smtpd  
 Порт 25 открыт, работает SMTP-сервер Postfix. Возможны атаки на конфигурацию почтового сервера (спам, перебор).  
+
+На атакуемой машине установлена операционная система ОС: Linux (Ubuntu/Debian).  
+Подтверждение:  
+OpenSSH 4.7p1 Debian 8ubuntu1  
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel  
