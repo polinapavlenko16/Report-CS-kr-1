@@ -29,3 +29,16 @@ TLS используется для обеспечения шифрования 
 Подтверждение:  
 OpenSSH 4.7p1 Debian 8ubuntu1  
 Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel  
+
+3306/tcp open mysql MySQL 5.0.51a-3ubuntu5  
+Возможные уязвимости:  
+CVE-2009-2446 (удаленное выполнение кода)  
+CVE-2012-5611 (перебор паролей)  
+Слабые пароли по умолчанию  
+
+8180/tcp open http Apache Tomcat/Coyote JSP engine 1.1  
+Возможные уязвимости:  
+CVE-2009-3098 (директивный обход)  
+CVE-2010-2227 (XSS)  
+CVE-2011-3190 (отказ в обслуживании)  
+Слабые учетные данные менеджера Tomcat  
