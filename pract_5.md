@@ -6,4 +6,16 @@ Ni = N / ni для i = 1, 2, …, k
 gcd(ni, Ni) = 1 для всех i  
 Существуют целые числа ti такие, что tiNi ≡ 1(mod ni) (поскольку Ni обратимо по модулю ni)  
 <img width="177" height="86" alt="2025-12-29_16-33-02" src="https://github.com/user-attachments/assets/61974eb4-4b34-4d6e-a892-e44e6d1cb5d0" />  
-<img width="720" height="256" alt="2025-12-29_16-35-41" src="https://github.com/user-attachments/assets/bb5365da-ea0d-4eea-932f-b2c10781e1b3" />
+<img width="720" height="256" alt="2025-12-29_16-35-41" src="https://github.com/user-attachments/assets/bb5365da-ea0d-4eea-932f-b2c10781e1b3" />  
+Предположим, есть два решения x и y. Тогда: x ≡ y (mod ni) для всех i  
+Так как ni попарно взаимно просты, то x ≡ y (mod N).  
+# Задача 2  
+Проверим взаимную простоту модулей:  
+gcd(11, 13) = 1  
+gcd(11, 24) = 1  
+gcd(13, 24) = 1  
+Модули попарно взаимно просты.  
+N = 11 * 13 * 24 = 3432  
+N1 = 3432 / 11 = 312  
+N2 = 3432 / 13 = 264  
+N3 = 3432 / 24 = 143  
