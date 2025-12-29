@@ -135,3 +135,8 @@ P4: (4, 36)
 P5: (5, 0)  
 P6: (6, 33)  
 P7: (7, 5)  
+Восстановление участниками 1, 4, 5, 6:  
+<img width="692" height="467" alt="2025-12-29_19-32-11" src="https://github.com/user-attachments/assets/889c5f0e-8ae0-4a86-995b-06884bdd47f0" />  
+Вычислим по модулю 37:
+1 слагаемое <img width="826" height="288" alt="2025-12-29_19-40-12" src="https://github.com/user-attachments/assets/b8cbe49b-3a5b-454e-898b-75784fafdd0b" />
+2 слагаемое
